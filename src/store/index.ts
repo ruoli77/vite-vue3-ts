@@ -11,7 +11,7 @@ export default createStore({
   },
   mutations: {
     increment(state: typeof defaultState) {
-      state++;
+      state.count++;
     },
   },
   actions: {
